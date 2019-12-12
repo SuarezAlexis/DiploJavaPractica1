@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">練習 1</string>
+    <string name="name">名</string>
+    <string name="surname">姓</string>
+    <string name="birthdate">生年月日</string>
+    <string name="day">日</string>
+    <string name="month">月</string>
+    <string name="year">年</string>
+    <string name="instruction">以下の情報を入力してください</string>
+    <string name="next">次の</string>
+    <string name="DGTIC">DGTIC</string>
+    <string-array name="months">
+        <item>一月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>九月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string name="nameError">名フィールドは必須です</string>
+    <string name="surnameError">姓フィールドは必須です</string>
+    <string name="yearError">年フィールドは必須です</string>
+    <string name="dayError">日フィールドは必須です</string>
+    <string name="greeting">こんにちは</string>
+    <string name="your_sign">あなたの星座は</string>
+    <string name="your_age">あなたは</string>
+    <string name="years">歳です</string>
+    <string name="dragon">ドラゴン</string>
+    <string name="dog">犬</string>
+    <string name="goat">ヤギ</string>
+    <string name="horse">うま</string>
+    <string name="monkey">モンキー</string>
+    <string name="ox">牛</string>
+    <string name="pig">豚</string>
+    <string name="rabbit">ウサギ</string>
+    <string name="rat">ねずみ</string>
+    <string name="rooster">オンドリ</string>
+    <string name="snake">ヘビ</string>
+    <string name="tiger">虎</string>
+</resources>

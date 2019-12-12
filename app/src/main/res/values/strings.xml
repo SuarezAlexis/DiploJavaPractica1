@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Práctica1</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellidos</string>
+    <string name="birthdate">Fecha de nacimiento</string>
+    <string name="day">Día</string>
+    <string name="month">Mes</string>
+    <string name="year">Año</string>
+    <string name="instruction">Ingresa la siguiente información</string>
+    <string name="next">Continuar</string>
+    <string name="DGTIC">DGTIC</string>
+    <string-array name="months">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string name="nameError">El campo nombre es obligatorio</string>
+    <string name="surnameError">El campo apellidos es obligatorio</string>
+    <string name="dayError">El campo día es obligatorio</string>
+    <string name="yearError">El campo año es obligatorio</string>
+    <string name="greeting">Hola</string>
+    <string name="your_sign">Tu signo es</string>
+    <string name="your_age">Tienes</string>
+    <string name="years">años</string>
+    <string name="dragon">Dragón</string>
+    <string name="rat">Rata</string>
+    <string name="ox">Buey</string>
+    <string name="monkey">Mono</string>
+    <string name="dog">Perro</string>
+    <string name="tiger">Tigre</string>
+    <string name="horse">Caballo</string>
+    <string name="snake">Serpiente</string>
+    <string name="rooster">Gallo</string>
+    <string name="rabbit">Conejo</string>
+    <string name="pig">Cerdo</string>
+    <string name="goat">Cabra</string>
+</resources>

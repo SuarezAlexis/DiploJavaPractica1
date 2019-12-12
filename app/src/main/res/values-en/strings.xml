@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practice 1</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="instruction">Type the information below</string>
+    <string name="next">Next</string>
+    <string name="DGTIC">DGTIC</string>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="nameError">The name field is required</string>
+    <string name="dayError">The day field is required</string>
+    <string name="surnameError">The surname field is required</string>
+    <string name="yearError">The year field is required</string>
+    <string name="greeting">Hello</string>
+    <string name="your_sign">"Your sign is "</string>
+    <string name="your_age">You are</string>
+    <string name="years">years old</string>
+    <string name="dragon">Dragon</string>
+    <string name="dog">Dog</string>
+    <string name="goat">Goat</string>
+    <string name="horse">Horse</string>
+    <string name="monkey">Monkey</string>
+    <string name="ox">Ox</string>
+    <string name="pig">Pig</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="rat">Rat</string>
+    <string name="rooster">Rooster</string>
+    <string name="snake">Snake</string>
+    <string name="tiger">Tiger</string>
+</resources>

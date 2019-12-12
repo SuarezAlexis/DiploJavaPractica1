@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Praktik 1</string>
+    <string name="name">Vorname</string>
+    <string name="surname">Nachname</string>
+    <string name="birthdate">Geburtsdatum</string>
+    <string name="day">Tag</string>
+    <string name="month">Monat</string>
+    <string name="year">Jahr</string>
+    <string name="instruction">Geben Sie die folgenden Informationen ein</string>
+    <string name="next">Weiter</string>
+    <string name="DGTIC">DGTIC</string>
+    <string-array name="months">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>März</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>
+    </string-array>
+    <string name="dayError">Das tag feld ist erforderlich</string>
+    <string name="nameError">Das vorname feld ist erforderlich</string>
+    <string name="surnameError">Das nachname feld ist efrorderlich</string>
+    <string name="yearError">Das jahr feld ist efrorderlich</string>
+    <string name="greeting">Hallo</string>
+    <string name="your_sign">Ihr sternzeichen ist</string>
+    <string name="your_age">Sie sind</string>
+    <string name="years">jahre alt</string>
+    <string name="dragon">Dragão</string>
+    <string name="dog">Hund</string>
+    <string name="goat">Ziege</string>
+    <string name="horse">Pferd</string>
+    <string name="monkey">Affe</string>
+    <string name="ox">Ochse</string>
+    <string name="pig">Schwein</string>
+    <string name="rabbit">Hase</string>
+    <string name="rat">Ratte</string>
+    <string name="rooster">Zapfhahn</string>
+    <string name="snake">Schlange</string>
+    <string name="tiger">Tiger</string>
+</resources>

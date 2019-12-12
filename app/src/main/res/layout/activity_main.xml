@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo_unam"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="120dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="170dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="270dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="370dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="150dp" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="182dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_name"
+        android:textColor="@color/clear"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="126dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/DGTIC"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:srcCompat="@drawable/logo_dgtic" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="470dp" />
+
+    <TextView
+        android:id="@+id/instructionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/instruction"
+        android:textColor="@color/clear"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="162dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textColor="@color/clear"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:background="@color/clear"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:paddingStart="15sp"
+        android:paddingEnd="15sp"
+        android:textColor="@color/azulUnam"
+        android:textColorHighlight="@color/textHighlight"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@color/textHighlight"
+        android:textCursorDrawable="@color/textHighlight"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+
+    <TextView
+        android:id="@+id/surnameTextView"
+        android:layout_width="161dp"
+        android:layout_height="29dp"
+        android:gravity="center"
+        android:text="@string/surname"
+        android:textColor="@color/clear"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/surnameEditText"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <EditText
+        android:id="@+id/surnameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/clear"
+        android:ems="10"
+        android:hint="@string/surname"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:paddingStart="15sp"
+        android:paddingEnd="15sp"
+        android:textColor="@color/azulUnam"
+        android:textColorHighlight="@color/textHighlight"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@color/textHighlight"
+        android:textCursorDrawable="@color/textHighlight"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/birthdayTextView"
+        android:layout_width="212dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/birthdate"
+        android:textColor="@color/clear"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <EditText
+        android:id="@+id/dayEditText"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/clear"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="dd"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textColor="@color/azulUnam"
+        android:textColorHighlight="@color/textHighlight"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@color/textHighlight"
+        android:textCursorDrawable="@color/textHighlight"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/monthSpinner"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.816" />
+
+    <Spinner
+        android:id="@+id/monthSpinner"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/clear"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/yearEditText"
+        app:layout_constraintStart_toEndOf="@+id/dayEditText"
+        app:layout_constraintTop_toBottomOf="@+id/birthdayTextView" />
+
+    <EditText
+        android:id="@+id/yearEditText"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:background="@color/clear"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="yyyy"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="@color/azulUnam"
+        android:textColorHighlight="@color/textHighlight"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@color/textHighlight"
+        android:textCursorDrawable="@color/textHighlight"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/monthSpinner"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="131dp"
+        android:layout_height="51dp"
+        android:background="@drawable/button"
+        android:text="@string/next"
+        android:textColor="@color/clear"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
